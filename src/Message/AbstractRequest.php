@@ -276,6 +276,8 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
                 return $base.'secure-ing.com/ideal/iDEALv3';
             case 'rabobank':
                 return $base.'rabobank.nl/ideal/iDEALv3';
+            case 'bnpparibas':
+                return $base.'bnpparibas.com/ideal/iDEALv3';
         }
 
         throw new InvalidRequestException('Invalid acquirer selected');
