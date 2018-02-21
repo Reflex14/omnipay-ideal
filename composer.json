@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/ideal",
+    "name": "reflex14/ideal",
     "type": "library",
     "description": "iDeal driver for the Omnipay payment processing library",
     "keywords": [
